@@ -1,9 +1,9 @@
 function main(numOne, numTwo){
-    var sum = 15 + 8;
+    var sum = numOne + numTwo;
+
+   
 
     return sum;
 }
 
-console.log(main(15, 8));
-
-module.exports = main;
+console.log(main(15, 8), main(5, 28), main(150, 425));
