@@ -1,3 +1,4 @@
+  
 function main(){
     var x = 7;
     var y = 12;
@@ -5,7 +6,7 @@ function main(){
 
     x=x+2;
     y=y+4;
-    z=" John";
+    z= z + " John!";
 
     return [x, y, z];
 
