@@ -1,8 +1,8 @@
 function main(){
-    console.log ("Hello World");
+    return "Hello World"
 }
 
-main();
+console.log(main());
 
 module.exports = main;
 
